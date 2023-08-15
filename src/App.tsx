@@ -87,8 +87,12 @@ function App() {
 
         <div className="subtle">
           Board ID: {boardId} |{" "}
+          <a href="https://github.com/Ann-Maksay/idea-elemental-c83">
+            Version: {"updated"}
+          </a>
+          <span> ; </span>
           <a href="https://github.com/tmyt/idea-elemental">
-            Version: {__COMMIT_HASH__}
+            Version: {"original"}
           </a>
         </div>
       </div>
